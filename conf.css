@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+.head{
+    background: #293f50;
+}
+header{
+    margin: 0 auto;
+    width: 960px;
+    height: 200px;
+}
+.container{
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header .logo h1{
+    display: block;
+    color: white;
+    font-size: 44px;
+    font-weight: lighter;
+    float: left;
+    padding: 40px 0 22px 0;
+    justify-content: center;
+    text-align: justify;
+}
+.logo p{
+    display: inline;
+    color: #648880;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 66px 0 0;
+    float: right;
+}
+header .logo nav ul{
+    display: block;
+    float: right;
+    padding-left: 66px;
+    
+}
+header .logo nav ul li{
+    list-style: none;
+    display: inline;
+    line-height: 4em;
+}
+header .logo nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.details{
+    background: #293f50;
+    justify-content: center;
+    text-align: center;
+    height: 280px;
+}
+.details h1{
+    font-size: 40px;
+    color: #648880;
+}
+.details p{
+    color: white;
+    font-size: 22px;
+    line-height: 2em;
+}
+.details button{
+    width: 170px;
+    height: 70px;
+    margin-top: 15px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.details button:hover{
+    cursor: pointer;
+    color: #648880;
+    background: white;
+}
+.about .container{
+    margin-top: 60px;
+    display: flex;
+    grid-gap: 30px;
+    justify-content: center;
+}
+.about .container .speaker{
+    width: min-content;
+    display: inline-block;
+    line-height: 1.5em;
+    height: 100px;
+}
+.about .container .speaker img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0px;
+}
+.speaker h4{
+    color: gray;
+    font-size: 13px;
+}
+.speaker h3{
+    color: #648880;
+    font-size: 19px;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+.speaker h3:hover{
+    color: #888;
+    cursor: pointer;
+}
+.speaker p{
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #888;
+    font-weight: 550;
+}
+.last{
+    display: block;
+    background: #293f50;
+    margin-top: 300px;
+    width: 100%;
+    text-align: center;
+}
+.last .container{
+    display: block;
+}
+.last .container .leest{
+    display: inline-block;    
+    width: 960px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.leest span,h5{
+    color: #648880;
+    float: left;
+    font-size: 14px;
+    margin-left: 2px;
+}
+.leest ul{
+    float: right;
+}
+.leest ul li{
+    list-style: none;
+    display: inline;
+}
+.leest ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
